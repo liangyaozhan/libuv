@@ -1,0 +1,1 @@
+CC=i686-w64-mingw32-gcc LDFLAGS="-Wl,--output-def,libuv.def -static-libgcc" ./configure --host=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=$PWD/install-win32
